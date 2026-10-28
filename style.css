@@ -70,8 +70,8 @@ nav a {
 
 .project-gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 .project-gallery a {
@@ -80,7 +80,7 @@ nav a {
 }
 
 .project-image {
-    height: 260px;
+    height: 200px;
     background-color: #E2E8F0;
 
     display: flex;
@@ -92,11 +92,11 @@ nav a {
     font-size: 24px;
     font-weight: bold;
 
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
 }
 
 .project-image:hover {
-    transform: scale(1.02);
+    transform: scale(1.08);
 }
 
 .project-gallery h3 {
@@ -117,6 +117,15 @@ footer h2 {
 
 footer p {
     color: #64748B;
+}
+/* VERSIONE TABLET */
+
+@media (min-width: 769px) and (max-width: 1100px) {
+
+    .project-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 /* VERSIONE MOBILE */
 
