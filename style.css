@@ -342,3 +342,49 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* =========================
+   PROJECT DETAIL IMAGES
+========================= */
+
+.project-figure {
+    margin: 25px 0 40px;
+    width: 100%;
+}
+
+.project-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    border-radius: 10px;
+    border: 1px solid #E2E8F0;
+}
+
+/* Two images side by side */
+
+.project-image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+.project-image-grid .project-figure {
+    margin: 10px 0 30px;
+}
+
+/* Smartphone */
+
+@media (max-width: 600px) {
+
+    .project-image-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .project-image-grid .project-figure {
+        margin: 10px 0;
+    }
+
+}
