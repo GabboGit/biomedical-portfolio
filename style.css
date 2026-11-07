@@ -407,3 +407,19 @@ footer a:hover {
     }
 
 }
+
+/* =========================
+   PROJECT IMAGE CAPTIONS
+========================= */
+
+.project-figure figcaption {
+    margin-top: 12px;
+
+    font-size: 14px;
+    font-style: italic;
+
+    color: #64748B;
+
+    text-align: center;
+    line-height: 1.5;
+}
