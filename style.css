@@ -423,3 +423,15 @@ footer a:hover {
     text-align: center;
     line-height: 1.5;
 }
+
+/* Running prosthesis: centered mesh image */
+
+.project-content > .project-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-content > .project-figure img {
+    max-width: 100%;
+}
