@@ -435,3 +435,36 @@ footer a:hover {
 .project-content > .project-figure img {
     max-width: 100%;
 }
+
+/* =========================
+   THROMBECTOMY PROJECT
+========================= */
+
+.thrombectomy-project .project-figure img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 420px;
+}
+
+/* Larger process diagrams */
+
+.thrombectomy-project .process-figure img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+}
+
+/* Mobile layout */
+
+@media (max-width: 600px) {
+
+    .thrombectomy-project .project-figure img {
+        max-height: 320px;
+    }
+
+    .thrombectomy-project .process-figure img {
+        max-height: none;
+    }
+
+}
